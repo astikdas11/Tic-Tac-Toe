@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #092328;
+    color:#8BBB92;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer{
+    height:70vh;
+    width: 70vh;
+    /* background-color: aqua; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading{
+    font-size: 8vmin;
+    margin-top: 5vmin;
+}
+
+.mainbox{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#btn{
+    height: 18vmin;
+    width: 18vmin;
+    padding: 0 4px 0 4px;
+}
