@@ -12,35 +12,40 @@ body{
     align-items: center;
 }
 
-.outer{
-    height:70vh;
-    width: 70vh;
-    /* background-color: aqua; */
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
 .heading{
     font-size: 8vmin;
-    margin-top: 5vmin;
+    margin-top: 3vmax;
 }
 
 .mainbox{
     height: 60vmin;
     width: 60vmin;
+    margin-top: 3.5vmax;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 #btn{
+    background-color: #2A835F;
+    color: #6c0b0b;
     height: 18vmin;
     width: 18vmin;
-    padding: 0 4px 0 4px;
+    border: 0;
+    font-size: 10vmin;
+    border-radius: 1.5rem;
+}
+
+#reset-btn{
+    margin-top: 2vmax;
+    color:#660707;
+    background-color: #2A835F;
+    border-radius: 7px;
+    border: 0;
+    font-size: 2.2vmin;
+    height: 6vmin;
+    width:18vmin;
 }
