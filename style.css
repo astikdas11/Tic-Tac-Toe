@@ -29,7 +29,7 @@ body{
     flex-wrap: wrap;
 }
 
-#btn{
+.btn{
     background-color: #2A835F;
     color: #6c0b0b;
     height: 18vmin;
@@ -48,4 +48,8 @@ body{
     font-size: 2.2vmin;
     height: 6vmin;
     width:18vmin;
+}
+
+.hide{
+    display: none;
 }
