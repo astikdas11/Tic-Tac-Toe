@@ -50,6 +50,34 @@ body{
     width:18vmin;
 }
 
-.hide{
-    display: none;
+.winmsg {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+
+.msg {
+    font-size: 8vmin;
+    color: #2A835F;
+}
+
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.winmsg.show {
+    opacity: 1;
+    visibility: visible;
 }
