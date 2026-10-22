@@ -1,5 +1,6 @@
 let button=document.querySelectorAll(".btn");
 let gameBody= document.querySelector(".game-body");
+let resetGame= document.querySelector("#reset-btn");
 let turn=true;
 
 
@@ -12,6 +13,22 @@ const disButton = () => {
 
     document.querySelector(".winmsg").classList.add("show");
 };
+
+const enbButton=()=>{
+    for (const btn of button) {
+        btn.disabled = false;
+        btn.innerText="";
+    }
+     gameBody.classList.remove("hide");
+
+    document.querySelector(".winmsg").classList.remove("show");
+
+};
+
+const restButton=()=>{
+    turn=true;
+    enbButton();
+}
 
 
 let winPattern=[
@@ -62,3 +79,6 @@ const checkWinner = () => {
         }
     }
 };
+
+
+resetGame.addEventListener("click",restButton);
