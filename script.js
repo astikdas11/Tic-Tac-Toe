@@ -13,7 +13,6 @@ const disButton = () => {
     gameBody.classList.add("hide");
 
     document.querySelector(".winmsg").classList.add("show");
-    newGame.classList.remove("hide");
 };
 
 const enbButton=()=>{
@@ -24,7 +23,6 @@ const enbButton=()=>{
      gameBody.classList.remove("hide");
 
     document.querySelector(".winmsg").classList.remove("show");
-    newGame.classList.add("hide");
 
 };
 
